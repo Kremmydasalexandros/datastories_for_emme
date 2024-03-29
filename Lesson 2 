@@ -1,0 +1,223 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyManc1OeVTPUwD5LuFFwUwD",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Kremmydasalexandros/datastories_for_emme/blob/main/Lesson%202%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 14,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "iInFDxArJFzb",
+        "outputId": "5be910fb-9000-4692-99bf-8ada9938e453"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Vasilis bill2005@example.com 9983 Life of BrynThe meaning of life\n"
+          ]
+        }
+      ],
+      "source": [
+        "my_name = \"Vasilis\"\n",
+        "my_email = \"bill2005@example.com\"\n",
+        "myAM_4first_digits = \"9983\"\n",
+        "_2FavoriteMovies = \"Life of Bryn\" + \"The meaning of life\"\n",
+        "print(my_name,my_email,myAM_4first_digits,_2FavoriteMovies)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Άσκηση 1\n"
+      ],
+      "metadata": {
+        "id": "V7BY8xpULUxA"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "title = \"Αγριοκύμινο και στα λάχανα\"\n",
+        "date =  \"29/03/2024\"\n",
+        "name = \"kathimerini\"\n",
+        "url = \"https://www.kathimerini.gr/columns/562953355/agriokymino-kai-sta-lachana/\"\n",
+        "print(\"Το άρθρο\" , title , \"δημοσιεύτηκε στο\" , name , \"στις\" , date , \"και βρίσκεται στο\" , url)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1JIotfrqLRlr",
+        "outputId": "232aabd6-8f50-479a-abce-f836447f58ce"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Το άρθρο Αγριοκύμινο και στα λάχανα δημοσιεύτηκε στο kathimerini στις 29/03/2024 και βρίσκεται στο https://www.kathimerini.gr/columns/562953355/agriokymino-kai-sta-lachana/\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Άσκηση 2"
+      ],
+      "metadata": {
+        "id": "ydfeB2PyP5or"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "monthly_rent =300\n",
+        "months = 12\n",
+        "yearly_rent = monthly_rent * months\n",
+        "print(yearly_rent)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "z0AqL7jCP8gp",
+        "outputId": "6e49bc3d-8225-4e24-a109-de7de751c2d7"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "3600\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Άσκηση 3"
+      ],
+      "metadata": {
+        "id": "7IznIhB8QYJT"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "result = 132 + 13\n",
+        "print(result)\n",
+        "result = 145\n",
+        "upoloipo = 8\n",
+        "praxh = result / upoloipo\n",
+        "print(praxh)\n",
+        "final_result = 18.125 ** 2\n",
+        "print(final_result)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cQsH8YdkQaDN",
+        "outputId": "9ed31c8f-aa4b-4772-9804-d6ef58eab85a"
+      },
+      "execution_count": 30,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "145\n",
+            "18.125\n",
+            "328.515625\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Άσκηση 4"
+      ],
+      "metadata": {
+        "id": "4zIo1e7PTCBx"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "counter = 1\n",
+        "print(counter)\n",
+        "counter = counter + 1\n",
+        "print(counter)\n",
+        "counter = counter + 1\n",
+        "print(counter)\n",
+        "counter = counter + 1\n",
+        "print(counter)\n",
+        "counter = counter + 1\n",
+        "print(counter)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wL253ZpwTEJZ",
+        "outputId": "6e35d642-1a3e-4271-c360-824d9520c31f"
+      },
+      "execution_count": 41,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Άσκηση 5"
+      ],
+      "metadata": {
+        "id": "ZtFRwZT6UCLu"
+      }
+    }
+  ]
+}
