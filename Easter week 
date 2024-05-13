@@ -1,0 +1,519 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMxdwfS7WOeq9qNcjJI2Jof",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Kremmydasalexandros/datastories_for_emme/blob/main/Easter%20week%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "01DpCaFhbeUq"
+      },
+      "execution_count": 3,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "\n",
+        "\n",
+        "---\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "slED5T591zlH"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "άσκηση 1"
+      ],
+      "metadata": {
+        "id": "DYdUXKWNbfII"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "iOPsCxdI1ySX",
+        "outputId": "81585b14-ad24-4615-b369-8d57b54d74a1"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "το c είναι 7\n",
+            "14\n"
+          ]
+        }
+      ],
+      "source": [
+        "c = 7\n",
+        "print(\"το c είναι\" ,c )\n",
+        "c = c*2\n",
+        "print(c)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "ασκηση 2"
+      ],
+      "metadata": {
+        "id": "z3PbnrLq3bfL"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 5\n",
+        "b = 4\n",
+        "c = 7\n",
+        "diafora = c - a\n",
+        "print(diafora)\n",
+        "ypoloipo = c / b\n",
+        "#print(ypoloipo)\n",
+        "print(f\"το πηλίκο της διαίρεσης του {c} με το  {a} είναι {ypoloipo}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JxcOelTt3D77",
+        "outputId": "a1e504d4-01c1-4029-da75-dd18c87d7e74"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2\n",
+            "το πηλίκο της διαίρεσης του 7 με το  5 είναι 1.75\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "άσκηση 3"
+      ],
+      "metadata": {
+        "id": "Pv1lKkBQ6IZ3"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 5\n",
+        "b = 4\n",
+        "c = 7\n",
+        "numbers_list = []\n",
+        "numbers_list.append(a)\n",
+        "print(numbers_list)\n",
+        "numbers_list.append(b)\n",
+        "print(numbers_list)\n",
+        "numbers_list.append(c)\n",
+        "print(numbers_list)\n",
+        "numbers_list_lenght = len(numbers_list)\n",
+        "print(numbers_list_lenght)\n",
+        "numbers_list = [a , b , c]\n",
+        "print(numbers_list)\n",
+        "len(numbers_list)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HIfJhPuj4pO_",
+        "outputId": "ef03b687-ae6f-40a7-a98b-5246c60b3444"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[5]\n",
+            "[5, 4]\n",
+            "[5, 4, 7]\n",
+            "3\n",
+            "[5, 4, 7]\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "3"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 6
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "άσκηση 4"
+      ],
+      "metadata": {
+        "id": "hSQBinld7zDp"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 5\n",
+        "b = 4\n",
+        "c = 7\n",
+        "numbers_list = [a , b , c ]\n",
+        "print(numbers_list)\n",
+        "#print(numbers_list[-2])\n",
+        "print(f'το προτελευταίο αντικείμενο της λίστας \"numbers_list\" είναι το {numbers_list[-2]}')\n",
+        "print(numbers_list)\n",
+        "numbers_list.sort()\n",
+        "print(numbers_list)\n",
+        "print(f'ολόκληρη η λίστα \"numbers_list: {numbers_list}')\n",
+        "print(f'τα 2 τελευταία αντικείμενα της λίστας \"numbers_list\":{numbers_list[-2:]}')\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "szxvyMHg6nQ5",
+        "outputId": "07889b97-d60c-4a8c-950c-0ea3cc5c0973"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[5, 4, 7]\n",
+            "το προτελευταίο αντικείμενο της λίστας \"numbers_list\" είναι το 4\n",
+            "[5, 4, 7]\n",
+            "[4, 5, 7]\n",
+            "ολόκληρη η λίστα \"numbers_list: [4, 5, 7]\n",
+            "τα 2 τελευταία αντικείμενα της λίστας \"numbers_list\":[5, 7]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "άσκηση 5"
+      ],
+      "metadata": {
+        "id": "HGrjsBAhA0T6"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#a = 5\n",
+        "#b = 4\n",
+        "#c = 7\n",
+        "#numbers_list = [ a , b , c ]\n",
+        "#print(numbers_list)\n",
+        "doubles_list =[]\n",
+        "for i in numbers_list:\n",
+        "  double = i*2\n",
+        "  doubles_list.append(double)\n",
+        "print(doubles_list)\n",
+        "triple_list = []\n",
+        "for i in numbers_list:\n",
+        "  triple = i*3\n",
+        "  triple_list.append(triple)\n",
+        "print(triple_list)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cHDGujHH8PkY",
+        "outputId": "987946ae-861c-40fc-c2bf-ab78632a6179"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[8, 10, 14]\n",
+            "[12, 15, 21]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "άσκηση 6"
+      ],
+      "metadata": {
+        "id": "hHLaYk4xDyxL"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        " #for num in numbers_list:\n",
+        "  #if num % 2 == 0:\n",
+        "    #print(f\"το {num} είναι ζυγός αριθμός\")\n",
+        "  #else:\n",
+        "    #print(f\"το {num} είναι μονός αριθμός\")\n",
+        "\n",
+        " #for num in doubles_list:\n",
+        "  #if num % 2 == 0:\n",
+        "    #print(f\"το {num} είναι ζυγός αριθμός\")\n",
+        "  #else:\n",
+        "    #print(f\"το {num} είναι μονός αριθμός\")\n",
+        "\n",
+        " #for num in triple_list:\n",
+        "  #if num % 2 == 0:\n",
+        "    #print(f\"το {num} είναι ζυγός αριθμός\")\n",
+        "  #else:\n",
+        "    #print(f\"το {num} είναι μονός αριθμός\")\n",
+        "\n",
+        "total_list = numbers_list+doubles_list+triple_list\n",
+        "print(total_list)\n",
+        "\n",
+        " for num in total_list:\n",
+        "  if num % 2 == 0:\n",
+        "    print(f\"το {num} είναι ζυγός αριθμός\")\n",
+        "  else:\n",
+        "    print(f\"το {num} είναι μονός αριθμός\")\n",
+        "\n",
+        "odd_list = {total_list[num%2 == 0]}\n",
+        "print(odd_list)"
+      ],
+      "metadata": {
+        "id": "oTwbOByFBMQg",
+        "outputId": "1ce2c93f-7dca-4611-942b-bdcadf0da3a2",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[4, 5, 7, 8, 10, 14, 12, 15, 21]\n",
+            "το 4 είναι ζυγός αριθμός\n",
+            "το 5 είναι μονός αριθμός\n",
+            "το 7 είναι μονός αριθμός\n",
+            "το 8 είναι ζυγός αριθμός\n",
+            "το 10 είναι ζυγός αριθμός\n",
+            "το 14 είναι ζυγός αριθμός\n",
+            "το 12 είναι ζυγός αριθμός\n",
+            "το 15 είναι μονός αριθμός\n",
+            "το 21 είναι μονός αριθμός\n",
+            "{4}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "άσκηση 6"
+      ],
+      "metadata": {
+        "id": "SwMkE-rYMypz"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "List = [\"https://reporter.gr\", \"mitsos@gmail.com\", \"https://cnn.gr\", \"annak@gmail.com\"]\n",
+        "\n",
+        "  #for item in List:\n",
+        "      #if \"https\" in List :\n",
+        "#print(\"ανήκει στη λίστα url\")\n",
+        "\n",
+        "\n",
+        "for item in List:\n",
+        "    if \"https\" in item:\n",
+        "        print(item, \"ανήκει στη λίστα url\")\n",
+        "\n",
+        "    if \"@\" in item:\n",
+        "        print(item, \"ανήκει στη λίστα mails\")\n",
+        "\n",
+        "urls = []\n",
+        "emails = []\n",
+        "\n",
+        "for item in List:\n",
+        "    if \"https\" in item:\n",
+        "        urls.append(item)\n",
+        "    else:\n",
+        "        emails.append(item)\n",
+        "\n",
+        "print(urls)\n",
+        "print(emails)\n",
+        "\n",
+        "print(\"urls:\", urls)\n",
+        "print(\"emails:\", emails)\n"
+      ],
+      "metadata": {
+        "id": "gTCbcBbyL9V4",
+        "outputId": "c79b98e4-ba72-4c08-edec-1e58b3a8dcc2",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "https://reporter.gr ανήκει στη λίστα url\n",
+            "mitsos@gmail.com ανήκει στη λίστα mails\n",
+            "https://cnn.gr ανήκει στη λίστα url\n",
+            "annak@gmail.com ανήκει στη λίστα mails\n",
+            "['https://reporter.gr', 'https://cnn.gr']\n",
+            "['mitsos@gmail.com', 'annak@gmail.com']\n",
+            "urls: ['https://reporter.gr', 'https://cnn.gr']\n",
+            "emails: ['mitsos@gmail.com', 'annak@gmail.com']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "άσκηση 8"
+      ],
+      "metadata": {
+        "id": "QMiOBl3nRqY_"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "names = [\"Κώστας Μουρλάς\", \"Κατερίνα Σωτηράκου\", \"Θοδωρής Παρασκευάς\"]\n",
+        "\n",
+        "for name in names:\n",
+        "    last_name = name.split()[-1]\n",
+        "    print(last_name)\n",
+        "\n",
+        "    if last_name.endswith(\"ς\"):\n",
+        "        print(\"Αγαπητέ κύριε\", last_name[:-1] + \",\")\n",
+        "    else:\n",
+        "        print(\"Αγαπητή κυρία\", last_name + \",\")\n"
+      ],
+      "metadata": {
+        "id": "J9GKWWHoNT3s",
+        "outputId": "55151615-b675-4a69-c8d8-94cb85872c2f",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Μουρλάς\n",
+            "Αγαπητέ κύριε Μουρλά,\n",
+            "Σωτηράκου\n",
+            "Αγαπητή κυρία Σωτηράκου,\n",
+            "Παρασκευάς\n",
+            "Αγαπητέ κύριε Παρασκευά,\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "άσκηση 9"
+      ],
+      "metadata": {
+        "id": "bpvTEL4dYvNd"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "names = [\"Κώστας Μουρλάς\", \"Κατερίνα Σωτηράκου\", \"Θοδωρής Παρασκευάς\" , \"Νίκος Παπαναστασίου\"]\n",
+        "names = [\"Κώστας Μουρλάς\", \"Κατερίνα Σωτηράκου\", \"Θοδωρής Παρασκευάς\", \"Νίκος Παπαναστασίου\"]\n",
+        "\n",
+        "for name in names:\n",
+        "    last_name = name.split()[-1]\n",
+        "    if last_name[-1] == \"ς\":\n",
+        "        print(\"Αγαπητέ κύριε\", last_name[:-1] + \",\")\n",
+        "    else:\n",
+        "        if last_name.endswith(\"ου\") :\n",
+        "            print(\"Αγαπητέ κύριε\", last_name + \",\")\n",
+        "        else:\n",
+        "            print(\"Αγαπητή κυρία\", last_name + \",\")\n"
+      ],
+      "metadata": {
+        "id": "TxPSLMAxRs9E",
+        "outputId": "3d02b50d-35b2-4458-ff01-f98a8ad06baf",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Αγαπητέ κύριε Μουρλά,\n",
+            "Αγαπητέ κύριε Σωτηράκου,\n",
+            "Αγαπητέ κύριε Παρασκευά,\n",
+            "Αγαπητέ κύριε Παπαναστασίου,\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "Yiz_ZDw3ZVVj"
+      },
+      "execution_count": 12,
+      "outputs": []
+    }
+  ]
+}
